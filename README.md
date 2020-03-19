@@ -6,12 +6,13 @@ Fylgdu eftirfarandi tutorial verklega [Character LCDs](https://learn.adafruit.co
 1. Svaraðu eftirfarandi spurningum:
 
    1. Hver er helsti munurinn á Character LCDs og Graphical LCDs?
+   * Svar:
    1. Hvað gerir RS pinninn á LCD?
    1. Afhverju þarf að tengja RW pinna í jörð ef við erum ekki að nota hann? 
    1. Hvað er hægt að birta marga stafi í LCD1602?
    1. Ahverju þarf að stýra LCD1602 með nokkrum pinnum (4 eða 8) á sama tíma? útskýrðu!
 
-1. breyttu kóðanum þannig að hann birtir nafnið þitt í línu 1 og settu dagsetningu í línu 2.
+1. Breyttu kóðanum þannig að hann birtir nafnið þitt í línu 1 og settu dagsetningu í línu 2.
 
 
 #### Aukaverkefni (valkvæmt).
