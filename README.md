@@ -20,6 +20,7 @@ Fylgdu eftirfarandi tutorial verklega [Character LCDs](https://learn.adafruit.co
 Svo til að safna saman þurfum við 6 pinna: RS, EN, D7, D6, D5 og D4 til að tala við LCD.
 
 2. Breyttu kóðanum þannig að hann birtir nafnið þitt í línu 1 og settu dagsetningu í línu 2.
+* Svar: [sjá kóða](https://www.tinkercad.com/things/c0ELhpUSLRG-lcd-1932020/editel)
 
 
 #### Aukaverkefni (valkvæmt).
