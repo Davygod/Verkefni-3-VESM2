@@ -50,3 +50,5 @@ og [Transistors](https://www.instructables.com/lesson/Transistors/) og svaraðu 
 
 ### 3.3 DC motor og H-Bridge (5%)
 (væntanlegt)
+
+### Myndbönd fyrir verkefni
