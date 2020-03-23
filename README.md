@@ -30,7 +30,23 @@ Svo til að safna saman þurfum við 6 pinna: RS, EN, D7, D6, D5 og D4 til að t
 
 
 ### 3.2 DC motor og Transistors (5%)
-(væntanlegt)
+1. Kynntu þér eftirfarandi [Motors and Motion](https://www.instructables.com/lesson/Motors-and-Motion/)
+og [Transistors](https://www.instructables.com/lesson/Transistors/) og svaraðu eftirfarandi spurningum:
+
+   1. Hvernig er skrefmótor (e. stepper motor) ólíkur hefðbundnum DC mótor? 
+   1. Hvernig er stýrimótor (e. servo motor) ólíkur hefðbundnum DC mótor? 
+   1. Hvernig er hægt að stjórna í hvora áttina DC mótor snýst?    
+   1. Hvað gerir transistor?
+   1. Hver er munurinn á NPN og PNP transistorum?
+
+1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) og settu hann upp í TinkerCad.
+
+1. Svaraðu eftirfarandi spurningum:
+
+   1. Afhverju þurfum við að nota PWM pinna til að stýra DC mótor?
+   1. Afhverju þurfum við að nota viðnám, transistor og diode með DC mótor í _Lesson 13. DC Motors_?
+
+1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) verklega með brauðbretti, DC motor og íhlutum.
 
 ### 3.3 DC motor og H-Bridge (5%)
 (væntanlegt)
