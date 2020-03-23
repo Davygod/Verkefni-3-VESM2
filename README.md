@@ -40,14 +40,20 @@ Skrefmótorar hinsvegar eru með tvær eða fleiri aðskildar vafningar sem þar
    2. Hvernig er stýrimótor (e. servo motor) ólíkur hefðbundnum DC mótor? 
    * __Svar:__ 
 Stýrimótorar eru sérhæfðir DC-vélar með innbyggð stjórnborð sem þarfnast merkis frá örstýringu. Flestir servómótorar hafa takmarkaðan snúning og er hægt að beina þeim til að fara í mjög nákvæma staðsetningu. Hins vegar eru til stöðugar snúnings servó sem geta ekki fært sig í nákvæma staðsetningu, en hægt er að forrita með tilliti til hraða. Maður getur borið kennsl á servómótor vegna þess að hann er kassalíkur og hefur gírlíkan hlut festann við skaftið.
-   3. Hvernig er hægt að stjórna í hvora áttina DC mótor snýst?  
+   3. Hvernig er hægt að stjórna í hvora áttina DC-mótor snýst?  
    * __Svar:__ 
 Til að knýja DC mótor þarf aðeins að tengja jákvæða spennu (innan aflmats) við eina tengi á mótornum og jörð við hina rafstöðina.
 Til að snúa stefnu DC mótor með því að snúa einfaldlega vírunum sem eru tengd við hverja rafstöð. Ástæðan fyrir því að mótorinn snýst afturábak þegar maður gerir þetta er sú að segulpólarnir sem myndast innan vindanna snúast við þegar maður knýr hann öfugt. Þetta neyðir snúninginn til að snúast á gagnstæða leið til að samræma föstu segulana inni í sátinn (mótorhólfið).
-   4. Hvað gerir transistor?
-   * __Svar:__
-   5. Hver er munurinn á NPN og PNP transistorum?
-   * __Svar:__
+   4. Hvað gerir smári (transistor)?
+   * __Svar:__ Smári er rafrænn hluti sem tekur lítið magn af straumi og magnar það.
+   5. Hver er munurinn á NPN- og PNP-smárum?
+   * __Svar:__ Til að skilja betur muninn á þessu tvennu, skulum við skoða díóða um stund. Eins og díóða, eru smárar gerðir upp af stillingum PN-mótum.
+Maður gæti sagt með tilgátu að NPN-smári sé í grundvallaratriðum 2 díóða bak við bak. Í fræðilegum heimi hefðir maður rétt fyrir sér, en í hinum raunverulega heimi maður alls ekki sagt það. Munurinn er sá að ekki aðeins eru P-svæðin í díóða töluvert stærri, þau eru heldur ekki beinlínis tengd. Hvert P-svæði er í raun að vera tengt við vírleiðslu, sem aftur hegðar sér hvorki eins og P-svæði eða N-svæðið að því er rafeindir eru taldar. Þessi sýning er líkari NP-WIRE-PN mótum. Þetta er greinilega alls ekki það sama. Hins vegar er mikilvægt að hafa í huga þessa hugmynd um PN-hlutdrægni.
+Ólíkt díóða, hefur NPN-smári mjög þunnt P-svæði - ekki breiðara en nokkrar bylgjulengdir ljóss - samloka milli tveggja N-svæða. Þegar straumur er beittur á P-svæðið (tengdur við grunnpinnann), þá skakar hann grunn- og safnapinnana áfram, og dregur í raun úrrennslissvæðið báðum megin við P-svæðið miðað við strauminn sem beittur er.
+Þetta framskekkjufyrirkomulag milli grunnsins og sendisins gerir það að verkum að rafeindir streyma frá grunnpinnanum til N-svæðisins sem er tengdur við sendinn (eins og díóða). Að því gefnu að rafmagnsmerkið við safnarann sé einnig jákvæðara en það sem gefur frá sér, þá geta rafeindirnar á safnaranum farið ókeypis í gegnum virka P-svæðið til sendisins. Sagt á annan hátt, straumurinn sem liggur frá grunninum til sendisins virkar eins og Trójuhestur til að virkja P-svæðið og leyfa mun stærri straumnum sem hangir við safnarann að fara um P-svæðið til sendisins.
+Þegar lítill rafstraumur er beittur við grunnpinnann, magnar hann hann þannig að mun stærri straumur getur farið milli safnara og emitterpinna. Magn straums sem liggur milli safnara og emitter pinna er í réttu hlutfalli við strauminn sem er lagður á grunnpinnann.
+
+PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-svæði og mjög lítið N-svæði í miðjunni. Vegna þessa er öfugsnúið hlutskipti milli grunnsins og sendisins. Þegar straumur er beittur virkar þessi gagnstæða hlutdrægni eins og díóða og hindrar rafmagn í að renna. Það er aðeins þegar straumurinn byrjar að fjarlægja úr grunninum að rafeindir geta farið frjálslega milli safnara og sendanda.
 
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) og settu hann upp í TinkerCad.
 
