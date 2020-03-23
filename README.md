@@ -79,4 +79,4 @@ Pinninn D3 í Arduino er tengdur við viðnáminn. Rétt eins og þegar ljósdí
 
 ### Myndbönd fyrir verklegt Arduino
 1. [Verkefni 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
-1. [Verkefni 3.2: DC-mótor]()
+1. [Verkefni 3.2: DC-mótor og smári]()
