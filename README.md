@@ -35,7 +35,6 @@ og [Transistors](https://www.instructables.com/lesson/Transistors/) og svaraðu 
 
    1. Hvernig er skrefmótor (e. stepper motor) ólíkur hefðbundnum DC mótor?
    * __Svar:__ DC mótorar snúast frjálsir þegar þeir eru knúnir af DC straumi. Þessir mótorar snúast frjálsir þegar þeir eru knúnir og hafa enga nákvæma staðsetningu. Þeir eru bestir sem vélfærafræði drifhjóla. Maður getur venjulega borið kennsl á DC mótor vegna þess að hann lítur út eins og kringlótt málmrör með skaft í miðju og tvö skaut að aftan. Þessir mótorar eru í fjölmörgum mismunandi stærðum og spennu.
-
 Skrefmótorar hinsvegar eru með tvær eða fleiri aðskildar vafningar sem þarf að knýja í tiltekinni röð. Vegna þessa færist skaftið í litlum „þrepum“ um leið og aflið er hjólað á milli spóla. Þessir vélar eru góðar fyrir nákvæma staðsetningu og hraðastjórnun, sérstaklega þegar maður þarf mótor sem getur snúið 360 gráður snúning. Maður getur venjulega bent á skrefmótor vegna þess að hann er með lögun eins og kassa og/eða hefur 4 eða fleiri víra sem koma út úr hliðinni. Algengasta gerð skrefmótora er tvíhverfur mótor, sem hefur tvær vafninga, og fjóra víra (tvær fyrir hvern vír). Þetta eru venjulega tegundin sem maður mun mæta.
    2. Hvernig er stýrimótor (e. servo motor) ólíkur hefðbundnum DC mótor? 
    * __Svar:__ 
