@@ -58,10 +58,19 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
 
 1. Svaraðu eftirfarandi spurningum:
 
-   1. Afhverju þurfum við að nota PWM pinna til að stýra DC mótor?
-   * __Svar:__
-   2. Afhverju þurfum við að nota viðnám, transistor og diode með DC mótor í _Lesson 13. DC Motors_?
-   * __Svar:__
+   1. Afhverju þurfum við að nota PWM (pulse-width-modulation) pinna til að stýra DC mótor?
+   * __Svar:__ Breyting púlsbreiddar er frábær aðferð til að stjórna magni sem afhentur er álagi án þess að dreifa orku. Ofangreindan hringrás er einnig hægt að nota til að stjórna hraða viftu eða til að dimma birtustig DC lampa eða LED.
+   2. Afhverju þurfum við að nota viðnám, smára og díóða með DC mótor í _Lesson 13. DC Motors_?
+   * __Svar:__ Litli DC mótorinn mun líklega nota meira afl en Arduino stafræna framleiðslan ræður beint við. Ef reynt er að tengja mótorinn beint við Arduino pinna eru góðar líkur á að það gæti skemmt Arduinoið.
+
+Hægt er að nota lítinn smára eins og PN2222 sem rofa sem notar aðeins lítinn straum frá Arduino stafræna framleiðslunni til að stjórna miklu stærri straumi mótorsins.
+Í smára eru þrjár leiðir. Mest af rafmagni rennur frá safnara til sendisins en það mun aðeins gerast ef lítið magn streymir inn í grunntenginguna. Þessi litli straumur fæst með stafræna framleiðslunni frá Arduino.
+
+Pinninn D3 í Arduino er tengdur við viðnáminn. Rétt eins og þegar ljósdíóða er notuð takmarkar þetta strauminn sem flæðir í smáranum gegnum grunninn.
+
+Það er díóði tengdur yfir tengingar mótorsins. Díóðinn leyfir aðeins rafmagni að flæða í eina átt (stefnu örvarinnar).
+
+Þegar maður slekkur á vélinni fær maður neikvæða spennu sem getur skemmt Arduinoið eða smárann. Díóðinn verndar gegn þessu með því að stytta slíka afturstraum frá mótornum.
 
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) verklega með brauðbretti, DC motor og íhlutum.
 
