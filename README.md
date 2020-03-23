@@ -52,3 +52,4 @@ og [Transistors](https://www.instructables.com/lesson/Transistors/) og svaraðu 
 (væntanlegt)
 
 ### Myndbönd fyrir verkefni
+1. [Verkefni 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
