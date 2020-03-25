@@ -76,7 +76,9 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
 ### 3.3 DC motor og H-Bridge (5%)
 1. Fylgdu [Lesson 15. DC Motor Reversing](https://learn.adafruit.com/adafruit-arduino-lesson-15-dc-motor-reversing) og settu hann upp í:
    1. TinkerCad
+      * [Svar](https://www.tinkercad.com/things/9TAx5MRI04h-amazing-stantia-wluff/editel?tenant=circuits)
    1. Verklega
+      * [Svar]()
   
 1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors)
    1. Hvað er H-Bridge?
