@@ -75,7 +75,12 @@ Pinninn D3 í Arduino er tengdur við viðnáminn. Rétt eins og þegar ljósdí
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) verklega með brauðbretti, DC motor og íhlutum.
 
 ### 3.3 DC motor og H-Bridge (5%)
-(væntanlegt)
+1. Fylgdu [Lesson 15. DC Motor Reversing](https://learn.adafruit.com/adafruit-arduino-lesson-15-dc-motor-reversing) og settu hann upp í:
+   1. TinkerCad
+   1. Verklega
+  
+1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors)
+   * spurningar (væntanlegt)
 
 ### Myndbönd fyrir verklegt Arduino
 1. [Verkefni 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
