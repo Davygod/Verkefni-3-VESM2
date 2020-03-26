@@ -117,7 +117,7 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
    1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
       * __Svar:__ Pinninn +Vmotor (8) veitir afl fyrir mótorana og +V (16) fyrir rökfræði flísarinnar. Við höfum tengt þetta báða við Arduino 5V pinnann. Hins vegar, ef þú myndir nota öflugri mótor, eða hærri spennu mótor, myndirðu útvega mótorinn sérstakt aflgjafa með því að nota pinna 8 sem er tengdur við jákvæða aflgjafa og jörð seinni aflgjafans er tengd jörðu Arduino.
   
-1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors) og nefndu í hvaða tilfellum (komdu með dæmi) eftirfarandi mótorgerðir væru notaðar og afhverju:
+1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors) og horfðu á þessi [tvö myndbönd](https://www.youtube.com/playlist?list=PLRIGIzu0Z7KlYY6FyZ0_Y0ZmVFyAvtDO0). <br> og nefndu í hvaða tilfellum (komdu með dæmi) eftirfarandi mótorgerðir væru notaðar og afhverju:
 
       1. Brushed DC Motor.
          * Notkun:
