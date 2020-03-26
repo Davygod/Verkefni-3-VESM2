@@ -2,6 +2,7 @@
  ### 3.1 LCD (5%)
 Fylgdu eftirfarandi tutorial verklega [Character LCDs](https://learn.adafruit.com/character-lcds/overview) að Python & CircuitPython. Kynntu þér vel kóðann og hvað pinnarnir gera.
 **Ath.** LCD með kóðanum er einnig á TinkerCad.
+   * [Svar: Verklegt 3.1: LCD]((https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be))
 
 1. Svaraðu eftirfarandi spurningum:
 
@@ -71,6 +72,7 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
         Þegar maður slekkur á vélinni fær maður neikvæða spennu sem getur skemmt Arduinoið eða smárann. Díóðinn verndar gegn þessu með því að stytta slíka afturstraum frá mótornum.
 
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) verklega með brauðbretti, DC motor og íhlutum.
+   * Svar: [Verklegt 3.2: DC-mótor og smári](https://www.youtube.com/watch?v=-DsBnNlEvLk&feature=youtu.be)
 
 ### 3.3 DC motor og H-Bridge (5%)
 1. Fylgdu [Lesson 15. DC Motor Reversing](https://learn.adafruit.com/adafruit-arduino-lesson-15-dc-motor-reversing) og settu hann upp í:
@@ -123,7 +125,3 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
          * __Svar:__
       1. Stepper motor.
          * __Svar:__
-
-### Myndbönd fyrir verklegt Arduino
-1. [Verkefni 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
-1. [Verkefni 3.2: DC-mótor og smári](https://www.youtube.com/watch?v=-DsBnNlEvLk&feature=youtu.be)
