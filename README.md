@@ -120,18 +120,48 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
 1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors) og nefndu í hvaða tilfellum (komdu með dæmi) eftirfarandi mótorgerðir væru notaðar og afhverju:
 
       1. Brushed DC Motor.
-         * __Svar:__ 
-         Forrit:
+         * Notkun:
             * Leikföng
             * Cell Buzzers
             * Þráðlaus verkfæri
             * RC Servos
             * Gírhreyflar
-         Kostir:
+          * Kostir:
             * Ódýrt
             * Léttur
             * Sanngjarnt skilvirkt
             * Gott lághraða togi
-         * __Svar:__
+          * Takmarkanir:
+            * Hávaði - Til viðbótar við heyranlegt væla frá kommutatorburstunum skapa þessir vélar mikinn rafmagnshljóð sem getur fundið leið aftur í aðrar rafrásir og valdið vandamálum.
+      1. Brushless DC Motor.
+         * Notkun:
+            * Fjölnota
+            * Drónar
+            * Útvarpstæki
+            * Diskadrifar
+            * Viftur
+            * Industrial Servos
+            * Hybrid drivers
+            * High-End Gearmotors
+         * Kostir:
+            * Rólegur
+            * Skilvirkur
+         * Takmarkanir:
+            * Stjórnandi - Sumar tegundir burstalausra véla þurfa sérstakan stjórnara til notkunar.
       1. Stepper motor.
-         * __Svar:__
+         * Notkun:
+            * 3D prentarar
+            * CNC vélar
+            * Myndavél rigs
+            * Vélmenni
+            * Prentarar
+            * Nákvæmni gírhreyflar
+         * Kostir:
+            * Nákvæm, endurtekin staðsetning
+            * Nákvæm hraðastjórnun
+            * Framúrskarandi lághraða togi
+            * Frábært "halda togi" til að viðhalda stöðu
+         * Takmarkanir:
+            * Lítil skilvirkni
+            * Getur þurft að umrita í dulmál eða takmarkanir til að koma upp viðmiðunarstöðu
+            * Með fyrirvara um skref sem misst var af ef of mikið er lagt af
