@@ -53,7 +53,7 @@ Maður gæti sagt með tilgátu að NPN-smári sé í grundvallaratriðum 2 dí�
 PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-svæði og mjög lítið N-svæði í miðjunni. Vegna þessa er öfugsnúið hlutskipti milli grunnsins og sendisins. Þegar straumur er beittur virkar þessi gagnstæða hlutdrægni eins og díóða og hindrar rafmagn í að renna. Það er aðeins þegar straumurinn byrjar að fjarlægja úr grunninum að rafeindir geta farið frjálslega milli safnara og sendanda.
 
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) og settu hann upp í TinkerCad.
-   * [Sjá kóða(servó-mótor ófinnanlegur)](https://www.tinkercad.com/things/0oKAyk09PC4-exquisite-jaban/editel?tenant=circuits)
+   * [Sjá kóða)](https://www.tinkercad.com/things/0oKAyk09PC4-exquisite-jaban/editel?tenant=circuits)
 
 1. Svaraðu eftirfarandi spurningum:
 
@@ -79,7 +79,7 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
    1. TinkerCad
       * [Svar](https://www.tinkercad.com/things/9TAx5MRI04h-amazing-stantia-wluff/editel?tenant=circuits)
    1. Verklega
-      * [Svar]()
+      * [Svar](https://www.youtube.com/watch?v=HYimzUp3YGY&feature=youtu.be)
   
 1. Lestu þér til um [L293D H-Bridge](https://maker.pro/custom/projects/all-you-need-to-know-about-l293d) og svaraðu eftirfarandi spurningum:
 
