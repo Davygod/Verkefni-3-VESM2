@@ -83,11 +83,23 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
 1. Lestu þér til um [L293D H-Bridge](https://maker.pro/custom/projects/all-you-need-to-know-about-l293d) og svaraðu eftirfarandi spurningum:
 
    1. Hvað er hægt að gera með L293D?
-      * __Svar:__
+      * __Svar:__ L293D er einn af vinsælustu driverum á markaðnum. Það eru nokkrar ástæður sem gera L293D að ákjósanlegum driver fyrir notendur, svo sem, ódýr verð (miðað við aðra drivera), rétta lögun og stærð, auðveld stjórnun, engin þörf á hlífðarrás og díóða, engin þörf á hitaskipum og góð viðnám að hitastigi og háhraða breytileika. Þessi IC getur sett upp mótora með spennu á milli 5V til 36V og straumi allt að 600 mA. Hins vegar þolir það allt að 1200 mA straum í 100 míkrósekúndu og er ekki endurtekið. Tíðni þessa IC er 5 kHz. Ef mótor þinn samsvarar þessum forskriftum skaltu ekki hika við að nota L293D.
+        L293 og L293D tækin eru fjórfaldur hástraumur hálfur H ökumaður. L293 er hannaður til að veita tvískipta drifstrauma allt að 1 A við spennu frá 4,5 V til 36 V. L293D er hannaður til að veita tvíákeyrslustraum sem er allt að 600 mA við spennu frá 4,5 V til 36 V. Bæði tækin eru hannað til að knýja framleiðsluhleðslu eins og gengi, segulloka, DC og tvískauta stigmótora, auk annarra hástraums / háspennuálags í jákvæðum framboðsaðgerðum.
+
+        Hver framleiðsla er heill drifrás með totem-stöng, með Darlington smári vaski og gervi-Darlington uppspretta. Ökumenn eru virkir í pari, með ökumenn 1 og 2 virkjaðir af 1,2EN og ökumenn 3 og 4 virkjaðir af 3,4EN. L293 og L293D einkennast fyrir notkun frá 0 ° C til 70 ° C.
+
+        Aðrir mikilvægir eiginleikar L293D eru:
+
+          * Breitt framboðsspennusvið: 4,5 V til 36 V
+          * Aðskilið inntak-rökfræði framboð
+          * Innri ESD vernd
+          * High-Noise-Immunity input
+          * Útgangsstraumur 1 A á rás (600 mA fyrir L293D)
+          * Hámarksafgangsstraumur 2 A á rás (1,2 A fyrir L293D)
+          * Úttak klemmudíóða fyrir hvatvís skammvinn kúgun (L293D)
    1. Hver er munurinn á L293 or L293D?
-      * __Svar:__
+      * __Svar:__ Stafur 'D' í nafni gefur til kynna innbyggða díóða og það þýðir að við þurfum ekki að bæta við neinum ytri íhlutum. Þetta er aðalmunurinn.
    1. Í lesson 15 er eftirfarandi kóðabútur, útskýrðu hann útfrá H-Bridge
-      * __Svar:__
    ```
    void setMotor(int speed, boolean reverse)
    {
@@ -96,6 +108,7 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
      digitalWrite(in2Pin, reverse);
    }
    ```
+      * __Svar:__
    1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
       * __Svar:__
   
