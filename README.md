@@ -115,13 +115,23 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
       '!' skipun þýðir 'ekki'. Þannig að fyrsta digitalWrite skipunin fyrir in1 setur það á hið gagnstæða af öllu því sem gildi 'öfugt' er, þannig að ef öfugt er HIGH þá setur það það á LOW og öfugt.
       Önnur digitalWrite fyrir 'in2' stillir pinnann á það sem gildi 'reversed' er. Þetta þýðir að það verður alltaf öfugt við hvað sem er in1.
    1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
-      * __Svar:__
+      * __Svar:__ Pinninn +Vmotor (8) veitir afl fyrir mótorana og +V (16) fyrir rökfræði flísarinnar. Við höfum tengt þetta báða við Arduino 5V pinnann. Hins vegar, ef þú myndir nota öflugri mótor, eða hærri spennu mótor, myndirðu útvega mótorinn sérstakt aflgjafa með því að nota pinna 8 sem er tengdur við jákvæða aflgjafa og jörð seinni aflgjafans er tengd jörðu Arduino.
   
 1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors) og nefndu í hvaða tilfellum (komdu með dæmi) eftirfarandi mótorgerðir væru notaðar og afhverju:
 
       1. Brushed DC Motor.
-         * __Svar:__
-      1. Brushless DC motor.
+         * __Svar:__ 
+         Forrit:
+            * Leikföng
+            * Cell Buzzers
+            * Þráðlaus verkfæri
+            * RC Servos
+            * Gírhreyflar
+         Kostir:
+            * Ódýrt
+            * Léttur
+            * Sanngjarnt skilvirkt
+            * Gott lághraða togi
          * __Svar:__
       1. Stepper motor.
          * __Svar:__
