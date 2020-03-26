@@ -49,7 +49,6 @@ Maður gæti sagt með tilgátu að NPN-smári sé í grundvallaratriðum 2 dí�
 Ólíkt díóða, hefur NPN-smári mjög þunnt P-svæði - ekki breiðara en nokkrar bylgjulengdir ljóss - samloka milli tveggja N-svæða. Þegar straumur er beittur á P-svæðið (tengdur við grunnpinnann), þá skakar hann grunn- og safnapinnana áfram, og dregur í raun úrrennslissvæðið báðum megin við P-svæðið miðað við strauminn sem beittur er.
 Þetta framskekkjufyrirkomulag milli grunnsins og sendisins gerir það að verkum að rafeindir streyma frá grunnpinnanum til N-svæðisins sem er tengdur við sendinn (eins og díóða). Að því gefnu að rafmagnsmerkið við safnarann sé einnig jákvæðara en það sem gefur frá sér, þá geta rafeindirnar á safnaranum farið ókeypis í gegnum virka P-svæðið til sendisins. Sagt á annan hátt, straumurinn sem liggur frá grunninum til sendisins virkar eins og Trójuhestur til að virkja P-svæðið og leyfa mun stærri straumnum sem hangir við safnarann að fara um P-svæðið til sendisins.
 Þegar lítill rafstraumur er beittur við grunnpinnann, magnar hann hann þannig að mun stærri straumur getur farið milli safnara og emitterpinna. Magn straums sem liggur milli safnara og emitter pinna er í réttu hlutfalli við strauminn sem er lagður á grunnpinnann.
-
 PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-svæði og mjög lítið N-svæði í miðjunni. Vegna þessa er öfugsnúið hlutskipti milli grunnsins og sendisins. Þegar straumur er beittur virkar þessi gagnstæða hlutdrægni eins og díóða og hindrar rafmagn í að renna. Það er aðeins þegar straumurinn byrjar að fjarlægja úr grunninum að rafeindir geta farið frjálslega milli safnara og sendanda.
 
 1. Fylgdu [Lesson 13. DC Motors](https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors) og settu hann upp í TinkerCad.
@@ -109,14 +108,10 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
    }
    ```
       * __Svar:__ Hraðinn er stilltur með því að nota analogWrite til að kveikja á pinna. Kveikjupinni L293 kveikir og slekkur bara á mótornum, óháð því hvað in1 og in2 pinnar L293 eru stilltir á.
-
-Til að stjórna stefnu mótorsins verður að stilla pinna in1 og in2 á gagnstætt gildi.
-
-Ef in1 er HIGH og in2 er LOW, mun mótorinn snúast á einn veg, ef á hinn bóginn er in1 LOW og in2 HIGH, þá mun mótorinn snúast í gagnstæða átt.
-
-'!' skipun þýðir 'ekki'. Þannig að fyrsta digitalWrite skipunin fyrir in1 setur það á hið gagnstæða af öllu því sem gildi 'öfugt' er, þannig að ef öfugt er HIGH þá setur það það á LOW og öfugt.
-
-Önnur digitalWrite fyrir 'in2' stillir pinnann á það sem gildi 'reversed' er. Þetta þýðir að það verður alltaf öfugt við hvað sem er in1.
+      Til að stjórna stefnu mótorsins verður að stilla pinna in1 og in2 á gagnstætt gildi. 
+      Ef in1 er HIGH og in2 er LOW, mun mótorinn snúast á einn veg, ef á hinn bóginn er in1 LOW og in2 HIGH, þá mun mótorinn snúast í gagnstæða átt.
+      '!' skipun þýðir 'ekki'. Þannig að fyrsta digitalWrite skipunin fyrir in1 setur það á hið gagnstæða af öllu því sem gildi 'öfugt' er, þannig að ef öfugt er HIGH þá setur það það á LOW og öfugt.
+      Önnur digitalWrite fyrir 'in2' stillir pinnann á það sem gildi 'reversed' er. Þetta þýðir að það verður alltaf öfugt við hvað sem er in1.
    1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
       * __Svar:__
   
