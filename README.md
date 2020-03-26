@@ -80,14 +80,33 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
    1. Verklega
       * [Svar]()
   
-1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors)
-   1. Hvað er H-Bridge?
-      * __Svar:__
+1. Lestu þér til um [L293D H-Bridge](https://maker.pro/custom/projects/all-you-need-to-know-about-l293d) og svaraðu eftirfarandi spurningum:
+
    1. Hvað er hægt að gera með L293D?
       * __Svar:__
    1. Hver er munurinn á L293 or L293D?
       * __Svar:__
-   * fleiri spurningar væntanlegar
+   1. Í lesson 15 er eftirfarandi kóðabútur, útskýrðu hann útfrá H-Bridge
+      * __Svar:__
+   ```
+   void setMotor(int speed, boolean reverse)
+   {
+     analogWrite(enablePin, speed);
+     digitalWrite(in1Pin, ! reverse);
+     digitalWrite(in2Pin, reverse);
+   }
+   ```
+   1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
+      * __Svar:__
+  
+1. Lestu þér til um [mismunandi tegundir mótora](https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors) og nefndu í hvaða tilfellum (komdu með dæmi) eftirfarandi mótorgerðir væru notaðar og afhverju:
+
+      1. Brushed DC Motor.
+         * __Svar:__
+      1. Brushless DC motor.
+         * __Svar:__
+      1. Stepper motor.
+         * __Svar:__
 
 ### Myndbönd fyrir verklegt Arduino
 1. [Verkefni 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
