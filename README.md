@@ -108,7 +108,15 @@ PNP-smári aftur á móti virkar gagnstætt við NPN-smára. Hann hefur tvö P-s
      digitalWrite(in2Pin, reverse);
    }
    ```
-      * __Svar:__
+      * __Svar:__ Hraðinn er stilltur með því að nota analogWrite til að kveikja á pinna. Kveikjupinni L293 kveikir og slekkur bara á mótornum, óháð því hvað in1 og in2 pinnar L293 eru stilltir á.
+
+Til að stjórna stefnu mótorsins verður að stilla pinna in1 og in2 á gagnstætt gildi.
+
+Ef in1 er HIGH og in2 er LOW, mun mótorinn snúast á einn veg, ef á hinn bóginn er in1 LOW og in2 HIGH, þá mun mótorinn snúast í gagnstæða átt.
+
+'!' skipun þýðir 'ekki'. Þannig að fyrsta digitalWrite skipunin fyrir in1 setur það á hið gagnstæða af öllu því sem gildi 'öfugt' er, þannig að ef öfugt er HIGH þá setur það það á LOW og öfugt.
+
+Önnur digitalWrite fyrir 'in2' stillir pinnann á það sem gildi 'reversed' er. Þetta þýðir að það verður alltaf öfugt við hvað sem er in1.
    1. L293D er með tvo +V pinna (8 and 16), útskýrðu þá.
       * __Svar:__
   
