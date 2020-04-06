@@ -2,7 +2,7 @@
  ### 3.1 LCD (5%)
 Fylgdu eftirfarandi tutorial verklega [Character LCDs](https://learn.adafruit.com/character-lcds/overview) að Python & CircuitPython. Kynntu þér vel kóðann og hvað pinnarnir gera.
 **Ath.** LCD með kóðanum er einnig á TinkerCad.
-   * [Svar: Verklegt 3.1: LCD]((https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be))
+   * [Svar: Verklegt 3.1: LCD](https://www.youtube.com/watch?v=_nJolhGTI94&feature=youtu.be)
 
 1. Svaraðu eftirfarandi spurningum:
 
